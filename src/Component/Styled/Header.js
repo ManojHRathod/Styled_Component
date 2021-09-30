@@ -23,6 +23,12 @@ export const Nav = styled.nav`
   }
 `
 
+export const Theme = styled.i`
+width:20px;
+height:30px;
+`
+
+
 export const Logo = styled.img`
 @media(max-width: ${({theme}) =>theme.mobile}){
  margin-left:100px;

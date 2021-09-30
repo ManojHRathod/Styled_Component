@@ -1,5 +1,5 @@
 import React from "react";
-import { HeaderStyle, Nav, Logo, Image } from "./Styled/Header";
+import { HeaderStyle, Nav, Logo, Image, Theme } from "./Styled/Header";
 import { Container } from "./Styled/Container";
 import { Button } from "./Styled/Button.style";
 import { Flex } from "./Styled/Flex.Style";
@@ -11,6 +11,9 @@ const Header = () => {
         <Container>
           <Nav>
             <Logo src="./images/jamsfy-logo.svg" alt="logo"></Logo>
+            <Theme>
+            <i class="fal fa-moon"></i>
+            </Theme>
             <Button>Try it Free</Button>
           </Nav>
           <Flex>
